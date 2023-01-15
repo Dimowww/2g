@@ -3,7 +3,7 @@ import os
 import random
 import webbrowser
 
-url = "https://youtu.be/GX_8gtMllfQ"
+url = "https://www.youtube.com/watch?v=GX_8gtMllfQ"
 
 pygame.mixer.pre_init(44100, -16, 1, 512)
 pygame.init()
