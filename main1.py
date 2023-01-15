@@ -15,7 +15,6 @@ f = False
 flag = False
 pygame.mixer.music.load('kip.mp3')
 pygame.mixer.music.play(-1)
-
 pygame.mixer.music.set_volume(vol)
 
 programIcon = pygame.image.load('44.jpg.')
@@ -55,7 +54,7 @@ BG = pygame.image.load(os.path.join("Image/Other", "Track.png"))
 
 class Dinosaur:
     X_POS = 80
-    Y_POS = 30
+    Y_POS = 310
     Y_POS_DUCK = 340
     JUMP_VEL = 8.5
 
